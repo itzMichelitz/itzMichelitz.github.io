@@ -4,22 +4,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Web Page</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/Portfolio/M edit.png">
 </head>
 
 <body>
-    <h1>Hi! I am Michel Eirene I. Catienza</h1>
-    <h2><b>HTML Tasks</b></h2>
-    <ol>
-        <li><a href="CatienzaExplorePHTours.html">Explore PH Tours</a></li>
-        <li><a href="CatienzaCourseSchedule.html">2nd Term Course Schedules</a></li>
-    </ol>
+    <header>
+        <div class="header">
+            <a href="#home"><img src="images/Portfolio/M edit.png"></a>
+            <div class="nav">
+                <a href="#home"><b>Home</b></a>
+                <a href="#proj"><b>Projects</b></a>
+                <a href="#cert"><b>Certificates</b></a>
+                <a href="#contact"><b>Contact Me</b></a>
+            </div>
+        </div>
+        
+    </header>
 
-    <h2>Week 6 Activities</h2>
-    <ol>
-        <li><a href="Catienza_JS_Act01/CatienzaW6Act01.html">Simple Count Up</a></li>
-        <li><a href="Catienza_JS_Act02/CatienzaW6Act02.html">To-Do List</a></li>
-    </ol>
+    <main>
+        <div class="intro">
+            <img src="images\Portfolio\Picture frame.png">
+            <h1 id="home">Hi, I'm Michel!</h1>
+            <p>I'm a second year Entertainment and Multimedia Computing student at 
+                Mapua Malayan Colleges<br>Mindanao, and I am passionate about video game development. 
+                As an avid gamer and aspiring game<br> developer, I aim to learn the many ways I can
+                create and innovate on games that take the world by storm.</p>
+        </div>
+
+        <section class="sec1">
+            <h1 id="proj">My Projects</h1>
+
+            <div class="prog">
+                <div class="html">
+                    <h3>HTML</h3>
+                    <a href="HTML/CatienzaExplorePHTours.html">HTML Task 1:<br>Explore PH Tours</a>
+                    <br>
+                    <a href="HTML/CatienzaCourseSchedule.html">HTML Task 2:<br>Course Schedule</a>
+                </div>
+                <div class="css">
+                    <h3>CSS</h3>
+                    <a href="CSS\Catienza_W5_CSS_Act1\index.html">CSS Task 3</a>
+                    <br>
+                    <a href="CSS\Catienza_W5_CSS_Act2\index.html">CSS Task 4</a>
+                </div>
+                <div class="js">
+                    <h3>JavaScript</h3>
+                    <a href="JS\Catienza_JS_Act01\CatienzaW6Act01.html">JavaScript Task 5</a>
+                    <br>
+                    <a href="JS\Catienza_JS_Act02\CatienzaW6Act02.html">JavaScript Task 6</a>
+                </div>
+        </section>
+
+        <br>
+
+        <section>
+            <div class="emc">
+                <br>
+                <h3>Project Showcase</h3>
+                <br>
+                <img src="JS\M1 SA.png">
+                <p>Recreate a Flag with JavaScript</p>
+                <img src="JS\Animated Geometry.gif">
+                <p>Animated Geometry</p>
+                <img src="JS\JS Scene.png">
+                <p>Room Recreation with Three.js</p>
+                </div>
+            </div>
+        </section>
+
+        <br>
+
+        <section class="sec3">
+            <h1 id="cert">Certificates</h1>
+
+            <div class="certificates">
+                <div>
+                    <img src="images\Creds\MOS_Excel.png">
+                    <p>Microsoft Office Specialist: Excel Associate (2019)</p>
+                </div>
+                <div>
+                    <img src="images\Creds\14_BIG-PP.png">
+                    <p>Programming in Python</p>
+                </div>
+                <div>
+                    <img src="images\Creds\UnityWorkshop.png">
+                    <p>Unity for Game Development</p>
+                </div>
+                <div>
+                    <img src="images\Creds\UX.png">
+                    <p>UX Design Process</p>
+                </div>
+                <div>
+                    <img src="images\Creds\Java8.png">
+                    <p>Java 8 Essential Training</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h1 id="contact">Get in touch</h1>
+
+            <div id="socmed">
+                <a href="https://github.com/itzMichelitz"><img src="images\socmed\github.png"></a>
+                <a href="https://www.linkedin.com/in/michel-eirene-catienza-565635253/"><img src="images\socmed\linkedin-app-white-icon.webp"></a>
+                <a href="https://web.facebook.com/itzMichelitz"><img src="images\socmed\facebook-app-round-white-icon.webp"></a>
+            </div>
+        </section>
+
+        <footer>
+            <p><b>© 2025 | Michel Eirene I. Catienza | All Rights Reserved</b></p>
+        </footer>
+    </main>
 </body>
 
 </html>
